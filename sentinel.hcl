@@ -1,5 +1,5 @@
-policy "restrict-s3-buckets" {
-  source = "./restrict-s3-buckets.sentinel"
+policy "restrict-instance-size" {
+  source = "./restrict-instance-size.sentinel"
   enforcement_level = "hard-mandatory"
 }
 
